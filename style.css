@@ -1,0 +1,23 @@
+
+img{
+    height:auto;
+    width:160px;
+    padding:20px
+}
+.displayImages{
+    display:inline-block;
+}
+.images{
+    display:none;
+}
+#answerForm,#buttons{
+    display:none;
+    
+}
+#submitButton{
+    text-align:center;
+}
+
+figcaption{
+    text-align:center;
+}

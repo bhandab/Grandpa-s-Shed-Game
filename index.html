@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grandpa's Shed</title>
+        <link href = "style.css" type ="text/css" rel = "stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class = "main">
+            <div class = "userForm" id = "iForm">
+        <form id = "firstForm">
+            <fieldset>
+                <legend>Input Form</legend>
+                <p>
+                    Please enter number of items you want to see from Grandpa'shed [Maximum you can see is 20]:
+                    <input type = "text" id = "numberOfItems">
+                </p>
+                <p>
+                    Please enter number of seconds you want to view items:
+                    <input type = "text" id = "numberOfSeconds" value = "10">
+                </p>
+                <p>
+                    Please enter number of items you want to be removed from display:
+                    <input type = "text" id = "removeItems" value = "1">
+                </p>
+               <!-- <input type = "submit" id = "submitButton"/>-->
+                
+            </fieldset>
+            <input type = "submit" id = "submitButton">
+        </form>
+            </div>
+            
+            <div class = "images">
+                <ul>
+                    <li class = "displayImages" id = "camera">
+                        <img src = "camera.jpg"/>
+                        <figcaption>camera</figcaption>
+                        
+                    </li>
+                    <li class = "displayImages" id = "phone">
+                        <img src = "cellPhone.jpg"/>
+                        <figcaption>phone</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "chair">
+                        <img src = "chair.jpg"/>
+                        <figcaption>chair</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "charger">
+                        <img src = "charger.jpg"/>
+                        <figcaption>charger</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "coins">
+                        <img src = "coins.jpg"/>
+                        <figcaption>coins</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "fan">
+                        <img src = "fan.jpg"/>
+                        <figcaption>fan</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "gloves">
+                        <img src = "gloves.jpg"/>
+                        <figcaption>gloves</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "hammer">
+                        <img src = "hammer.jpg"/>
+                        <figcaption>hammer</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "laptop">
+                        <img src = "laptop.jpg"/>
+                        <figcaption>laptop</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "multiplug">
+                        <img src = "multiPlug.jpg"/>
+                        <figcaption>multiplug</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "oil">
+                        <img src = "oil.jpg"/>
+                        <figcaption>oil</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "papertowel">
+                        <img src = "paperTowel.jpg"/>
+                        <figcaption>papertowel</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "pen">
+                        <img src = "pen.jpg"/>
+                        <figcaption>pen</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "pin">
+                        <img src = "pin.jpg"/>
+                        <figcaption>pin</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "sandal">
+                        <img src = "sandal.jpg"/>
+                        <figcaption>sandal</figcaption>
+                    </li>
+                    <li class = "displayImages" id = 'shoerack'>
+                        <img src = "shoeRack.jpg"/>
+                        <figcaption>shoerack</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "ball">
+                        <img src = "soccer.jpg"/>
+                        <figcaption>ball</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "tshirt">
+                        <img src = "t-shirt.jpg"/>
+                        <figcaption>tshirt</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "truck">
+                        <img src = "truck.jpg"/>
+                        <figcaption>truck</figcaption>
+                    </li>
+                    <li class = "displayImages" id = "wood">
+                        <img src = "woodLogs.jpg"/>
+                        <figcaption>wood</figcaption>
+                    </li>
+
+                </ul>
+            </div>
+            <div class = "userForm" id = "answerForm">
+                <form id = "secondForm">
+                    <fieldset>
+                        <legend>Response Form</legend>
+                        <p>
+                            Please Enter items that were removed from Grandpa's Shed separated by commas: 
+                            <input type = "text" id = "userAnswer">
+                        </p>
+                    </fieldset>
+                    <input type = "submit" id = "responseSubmit">
+                </form>
+            </div>
+            
+            <div id = "buttons">
+                <button type = "submit" id = "resetButton">PLAY AGAIN</button>
+                <!--<button type = "submit" id = "exitButton">EXIT</button>-->
+            </div>
+        </div>
+        <script src = "script.js" type = "text/javascript"></script>
+    </body>
+</html>
